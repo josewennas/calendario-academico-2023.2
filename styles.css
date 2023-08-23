@@ -63,8 +63,6 @@ width: 900px;
     margin: 1%;
     text-align: justify;
 
-
-
 }
 
 
@@ -122,3 +120,19 @@ footer{
     flex-direction: column;
    
 }
+
+@media screen and(max-width:280px){
+    .meses{
+        position: relative;
+        top: 50px;
+
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        text-align: justify;
+    
+    }
+}
+
+
+    
