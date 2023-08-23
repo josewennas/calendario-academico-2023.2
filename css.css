@@ -7,6 +7,12 @@ body{
 }
 
 header{
+
+    /* position: fixed;
+    top: 0;
+
+    z-index: 10;; */
+
     background-color:#0C2E5C;
     text-align: center;
     padding: 3em;
@@ -46,6 +52,12 @@ a{
     background-color: azure;
     display: flex;
     flex-direction: column;
+
+
+
+
+
+
     /* width: 50em; */
 
 }
@@ -116,7 +128,7 @@ data-verde{
 
 .Agosto, .Setembro, .Outubro, .Novembro, .Dezembro{
     margin: 0em;
-    padding: 1em;
+    padding: 5em;
 }
 
 .Agosto{
