@@ -5,9 +5,9 @@ body{
     align-items: center;
     justify-items: center;*/
 
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; */
     
 
 
@@ -22,9 +22,6 @@ header{
     /*height: 0em ;*/
     padding: 2em;
     background-color:#A5BBE2;
- 
-  
-    
     align-items: center;
     justify-content: baseline;
     flex-direction: column;
@@ -64,10 +61,18 @@ p{
     position: relative;
     top: 100px;
 /* width: 900px; */
-    display: flex; 
-    flex-direction: column;
-    margin: 1%;
-    text-align: left;
+    display: flex;
+
+   flex-direction: column;
+    margin: 2%;
+    /* text-align: left; */
+    background-color: rgb(236, 236, 236);
+
+    justify-content: center;
+    align-items: center;
+
+        flex-wrap: wrap;
+
 
 }
 
@@ -75,7 +80,8 @@ p{
 .Agosto{
 margin: 1.5em;
     text-align:justify;
-    padding: 2em 0em 0em 01mm;
+    padding: 2em 0em 0em 1em;
+    background-color: #A5BBE2;
 
 
 }
@@ -83,7 +89,8 @@ margin: 1.5em;
 .Setembro{
     margin: 1.5em;
     text-align:justify;
-    padding: 1em 0em 0em 01mm;
+    padding: 2em 0em 0em 1em;
+    background-color: bisque;
 
 
 }
@@ -91,21 +98,23 @@ margin: 1.5em;
 .Outubro{
     margin: 1.5em;
     text-align:justify;
-    padding: 1em 0em 0em 01mm;
+    padding: 2em 0em 0em 1em;
+    background-color: aquamarine;
 
 }
 
 .Novembro{
     margin: 1.5em;
     text-align:justify;
-    padding: 1em 0em 0em 01mm;
+    padding: 2em 0em 0em 1em;
+    background-color: rebeccapurple;
 
 }
 
 .Dezembro{
     margin: 1.5em;
     text-align:justify;
-    padding: 1em 0em 2em 01mm;
+    padding: 1em 0em 2em 0em;
 
 }
 
@@ -127,15 +136,10 @@ footer{
    
 }
 
-@media screen and(max-width:280px){
+@media screen and(max-width:720px){
     .meses{
-        position: relative;
-        top: 50px;
 
-        display: flex;
-        flex-direction: column;
-        margin: 1%;
-        text-align: justify;
+        margin: 30%;
     
     }
 }
